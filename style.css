@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8f4e1;
+}
+#cal-form {
+  border: 1px solid #151515;
+  padding: 10px;
+  height: 350px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+}
+.screen input {
+  width: 250px;
+  height: 50px;
+  border: 1px solid #151515;
+  margin: 16px 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: not-allowed;
+  background-color: #fef5f5;
+  padding: 0px 15px;
+}
+.screen input:focus {
+  outline: none;
+}
+.btn-group input[type="button"] {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#addition {
+  background-color: orange;
+  color: white;
+}
+#subtract {
+  background-color: red;
+  color: white;
+}
+#multiple {
+  background-color: blue;
+  color: white;
+}
+#equal {
+  background-color: black;
+  color: white;
+}
